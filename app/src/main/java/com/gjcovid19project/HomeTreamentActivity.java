@@ -106,7 +106,7 @@ public class HomeTreamentActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(JSONObject response) {
                         try {
-                            JSONArray jsonArray = response.getJSONArray("data");
+                            JSONArray jsonArray = response.getJSONArray("image_data");
 
                             for (int i = 0; i < jsonArray.length(); i++) {
                                 JSONObject hit = jsonArray.getJSONObject(i);

@@ -9,9 +9,9 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.ImageView;
 
-import com.gacovid19project.MainActivity;
-import com.gacovid19project.R;
-import com.gacovid19project.Services.WebViewClientService;
+import com.gjcovid19project.MainActivity;
+import com.gjcovid19project.R;
+import com.gjcovid19project.Services.WebViewClientService;
 
 public class WebViewActivity extends AppCompatActivity {
 

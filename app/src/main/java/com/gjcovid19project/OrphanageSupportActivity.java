@@ -20,11 +20,13 @@ public class OrphanageSupportActivity extends AppCompatActivity {
     private GridView Grid_View;
 
     String[] web = {
+            "Free Food",
             "Homes & Accommodation",
             "Delivery of Medicine & Grocery"
 
     } ;
     int[] imageId = {
+            R.drawable.food,
             R.drawable.homes,
             R.drawable.delivery
 
@@ -57,6 +59,10 @@ public class OrphanageSupportActivity extends AppCompatActivity {
                                     int position, long id) {
                 switch (position) {
                     case 0:
+                        Intent intent0 = new Intent(OrphanageSupportActivity.this, FreeFoodActivity.class);
+                        startActivity(intent0);
+                        break;
+                    case 1:
                         Intent intent = new Intent(OrphanageSupportActivity.this, HomesActivity.class);
                         startActivity(intent);
                         break;
