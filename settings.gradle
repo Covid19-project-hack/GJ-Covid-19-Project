@@ -1,0 +1,2 @@
+rootProject.name='GJ-Covid-19-Project'
+include ':app'
